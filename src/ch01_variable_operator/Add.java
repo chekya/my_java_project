@@ -25,5 +25,12 @@ public class Add {
 
         message = x + " 곱하기 " + y + "은 " + z + "입니다." ;
         System.out.println(message);
+        System.out.println();
+
+        x = 5 ;
+        y = 9 ;
+        z = x * y ;
+
+        System.out.println(x + " 곱하기 " + y + "은 " + z + "입니다.");
     }
 }
