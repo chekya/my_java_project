@@ -1,8 +1,8 @@
-package ch04_class;
+package ch04_class;  //P103 같은 국적을 가진 2사람에 대한 정보를 출력하는 프로그램을 작성해 보세요.
 
 public class SaramMain00 {
     public static void main(String[] args) {
-        String yusin_nationality;
+        String yusin_nationality;  //변수 6개 필요
         String yusin_name;
         double yusin_height;
         double yusin_weight;

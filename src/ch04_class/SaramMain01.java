@@ -6,10 +6,10 @@ public class SaramMain01 {
        // System.out.println(x);
         // 단계 2 : 객체 생성
         //클래스이름 객체이름 = new 생성자이름() ;
-        Saram01 yusin = new Saram01(); //int x = 10;
+        Saram01 yusin = new Saram01(); //int x = 10;  / 변수 정의
 
         Saram01 soon ;                 //int x;
-        soon = new Saram01() ;         //x = 10; 위의 형식보다는 이런 혀식으로 많이 씀
+        soon = new Saram01() ;         //x = 10; 위의 형식보다는 이런 형식으로 많이 씀
 
         // 단계 3 : 객체의 멤버 변수에 쓰기 작업
         //점(.)을 멤버 참조 연산자라고 부릅니다.
