@@ -4,8 +4,9 @@ package ch05_package_inheritance.general;
 public class Americano03 extends Beverage03 {
     private double waterAmount ; //투입하는 물의 양
 
+
     public Americano03(String name, double price, double waterAmount) {
-       // super();  //부모님의 생성자 호출(super() 가 있건없건 부모님의 생성자는 자동호출 된다.아래 super(name,price);생성하면 super()는 사라진다.
+       // super();  //부모님의 생성자 호출(super() 가 있건없건 부모님의 생성자는 자동호출 된다.아래 super(name,price);생성(입력)하면 자동호출 된 super()는 사라진다.
         super(name, price); //부모님의 생성자
         this.waterAmount = waterAmount;
     }
