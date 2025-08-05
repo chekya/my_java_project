@@ -2,8 +2,9 @@ package ch05_package_inheritance.amimalpkg01;
 
 public class AnimalMain {
     public static void main(String[] args) {
-        // 타입[] 배열명 = {}
+        // 타입[] 배열명 = {}   //6번 동물 3마리 배열 만들기(1마리 끝내고 다음순으로 순차적으로)
         Animal01[] animal = {
+                //6_1번 AnimalMain에서 배열 만든 후 아래의 ()안에 변수들 입력한 후 변수 빨간줄에 마우스대고 creat constructor 클릭하면 서브클래스에 생성자 생긴다.
                 new GoldFish01("금붕어", 2, "거실 어항", 10, 2),
                 new Lion01("라이언", 15, "세렝게티", 10, 4),
                 new Eagle01("독수리", 20, "푸른 창공", 50,2 )
