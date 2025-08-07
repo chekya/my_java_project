@@ -1,4 +1,4 @@
-package ch05_package_inheritance.beveragetest;
+package ch06_abstract_interface.beveragetest;
 
 public class BeverageMain {
     public static void main(String[] args) {
