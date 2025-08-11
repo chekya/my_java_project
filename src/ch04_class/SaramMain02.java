@@ -1,6 +1,6 @@
 package ch04_class;
 
-public class SaranMain02 {
+public class SaramMain02 {
     public static void main(String[] args) {
         System.out.println(Saram02.nationality);
 

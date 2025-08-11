@@ -39,7 +39,7 @@ public class ShapeMain {
             sample01.display();
 
         }
-        //추상 클래스는 참조 변수로는 사용 가능합니다.
+        //추상 클래스는 참조 변수로는 사용 가능합니다.(불완전하므로 new 작성못한다)
         //추상클래스 개체ㅣ = new 구현체클래스()
         Shape sample02 = new Rectangle("blue", "pink", 10.0, 15.0);
         sample02.display();
